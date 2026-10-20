@@ -1,0 +1,51 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 20px;
+        }
+
+        h2 {
+            color: #C92318;
+            background-color: #FBECE9;
+            border-bottom: 2px solid #C92318;
+            padding: 5px;
+        }
+
+        .tour {
+            width: 80%;
+            margin: 25px auto;
+            padding: 20px;
+            background-color: #C9A227;
+            border: 8px solid #F2F2F2;
+            box-shadow: 0 5px 12px #CCCCCC;
+            color: white;
+            font-family: "Times New Roman", serif;
+            overflow: auto;
+        }
+
+        .tour h3 {
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 3px #886B18;
+            margin-top: 0;
+        }
+
+        .tour img {
+            width: 30%;
+            float: right;
+            margin: 0 0 10px 15px;
+            border: 2px solid white;
+            border-radius: 3px;
+        }
+
+        .tour p {
+            text-align: justify;
+            line-height: 1.5;
+            font-size: 14px;
+        }
+
+        .caption {
+            text-align: center;
+            font-size: 12px;
+            font-style: italic;
+        }
