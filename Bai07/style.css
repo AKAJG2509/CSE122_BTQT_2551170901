@@ -1,0 +1,122 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    margin: 15px 23px;
+}
+
+.page-title {
+    color: #C92318;
+    background-color: #FBECE9;
+    border-bottom: 2px solid #C92318;
+    padding: 5px;
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.promotion {
+    width: 90%;
+    max-width: 458px;
+    min-height: 324px;
+    margin: 0 auto;
+    padding: 16px 9px 20px;
+    box-sizing: border-box;
+    background-color: #ECEFF0;
+    box-shadow: 0 8px 15px #D5D8D9;
+}
+
+.main-title {
+    background-color: #C8102E;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 5px;
+}
+
+.subtitle {
+    background-color: #FBE3E8;
+    color: #C8102E;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #FFFFFF;
+    min-height: 245px;
+    padding: 12px 10px;
+    box-sizing: border-box;
+}
+
+.left-column {
+    padding: 0 10px 0 0;
+    align-self: end;
+}
+
+.right-column {
+    border-left: 1px solid #EEEEEE;
+    padding-left: 10px;
+    font-size: 9px;
+}
+
+.content h3 {
+    color: #C8102E;
+    font-size: 9px;
+    margin: 0 0 5px;
+}
+
+.content ul {
+    padding-left: 14px;
+    margin: 0 0 10px;
+}
+
+.content li {
+    color: #333333;
+    font-size: 9px;
+    line-height: 1.5;
+    margin-bottom: 4px;
+    text-align: left;
+}
+
+.product-image {
+    float: right;
+    width: 48%;
+    height: auto;
+    margin: 0 0 8px 7px;
+}
+
+.caption {
+    text-align: center;
+    font-size: 11px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+@media (max-width: 450px) {
+    body {
+        margin: 10px;
+    }
+
+    .promotion {
+        width: 100%;
+    }
+
+    .content {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .left-column {
+        align-self: auto;
+    }
+
+    .right-column {
+        border-left: none;
+        border-top: 1px solid #EEEEEE;
+        padding: 10px 0 0;
+    }
+}
