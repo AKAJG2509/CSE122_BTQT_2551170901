@@ -1,0 +1,120 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 10px 17px;
+        }
+
+        /* Tiêu đề chương */
+        .chapter {
+            background-color: #203d96;
+            color: white;
+            text-align: center;
+            font-size: 34px;
+            font-weight: bold;
+            padding: 5px;
+            margin-bottom: 27px;
+        }
+
+        /* Tiêu đề bài */
+        .lesson {
+            background-color: #fff0ee;
+            color: #b52b20;
+            font-size: 27px;
+            font-weight: bold;
+            padding: 4px 3px;
+            border-bottom: 3px solid #b52b20;
+            margin-bottom: 40px;
+        }
+
+        /* Khung bài thơ */
+        .poem {
+            background-color: #fffde8;
+            border: 1px solid #b7b7a9;
+            width: 85%;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 24px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        /* Tiêu đề bài thơ */
+        .poem-title {
+            background-color: #ffd8e4;
+            color: #d00000;
+            font-family: "Times New Roman", serif;
+            font-size: 28px;
+            font-weight: bold;
+            padding: 5px;
+            margin: 0 0 18px;
+        }
+
+        /* Nội dung thơ */
+        .stanza {
+            font-family: "Times New Roman", serif;
+            font-size: 18px;
+            font-style: italic;
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        .spring {
+            color: #0044ff;
+        }
+
+        .summer {
+            color: #e00000;
+        }
+
+        .autumn {
+            color: #0044ff;
+        }
+
+        .winter {
+            color: #0044ff;
+        }
+
+        /* Đường kẻ ngăn cách */
+        hr {
+            width: 55%;
+            border: none;
+            border-top: 1px solid #3974ff;
+            margin: 16px auto;
+        }
+
+        /* Chân trang */
+        .footer {
+            color: #777;
+            font-family: "Times New Roman", serif;
+            font-size: 16px;
+            font-style: italic;
+            margin-top: 22px;
+        }
+
+        /* Hiển thị tốt trên điện thoại */
+        @media (max-width: 600px) {
+            .chapter {
+                font-size: 24px;
+            }
+
+            .lesson {
+                font-size: 20px;
+            }
+
+            .poem {
+                width: 100%;
+                padding: 15px;
+            }
+
+            .stanza {
+                font-size: 16px;
+            }
+
+            .poem-title {
+                font-size: 24px;
+            }
+
+            hr {
+                width: 75%;
+            }
+        }
