@@ -1,0 +1,111 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    margin: 14px 20px;
+}
+
+.page-title {
+    color: #C92318;
+    background-color: #FBECE9;
+    border-bottom: 3px solid #C92318;
+    padding: 5px;
+    margin: 0 0 12px;
+    font-size: 20px;
+}
+
+.clock-container {
+    width: 515px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 0;
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.digital-clock {
+    height: 168px;
+    background-color: #000000;
+    border-radius: 15px;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+
+#clock {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 18px;
+    gap: 3px;
+}
+
+#clock img {
+    width: 32px;
+    height: 42px;
+    object-fit: fill;
+    flex-shrink: 1;
+}
+
+#clock .colon {
+    width: 20px;
+    height: 42px;
+}
+
+.greeting-box {
+    margin: 46px 32px 0;
+    min-height: 96px;
+    background-color: #FFFFFF;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#greeting {
+    color: #CF2929;
+    font-family: "Times New Roman", serif;
+    font-size: clamp(28px, 6vw, 52px);
+    text-align: center;
+}
+
+.caption {
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    font-size: 11px;
+    font-style: italic;
+    margin-top: 12px;
+}
+
+@media (max-width: 480px) {
+    body {
+        margin: 10px;
+    }
+
+    .digital-clock {
+        height: 140px;
+        padding-top: 28px;
+    }
+
+    #clock {
+        padding: 0 8px;
+        gap: 1px;
+    }
+
+    #clock img {
+        width: 25px;
+        height: 33px;
+    }
+
+    #clock .colon {
+        width: 14px;
+        height: 33px;
+    }
+
+    .greeting-box {
+        margin: 30px 15px 0;
+        min-height: 80px;
+    }
+}
