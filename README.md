@@ -19,6 +19,9 @@ Các bài tập được tổ chức khoa học: mỗi bài tập được tách
 CSE122_BTQT_2551170901/
 ├── index.html                 # Trang Portal danh mục tổng hợp toàn bộ bài tập
 ├── README.md                  # Tài liệu giới thiệu kho lưu trữ
+├── Bai01/                     # Bài 01: Trang thơ Bốn mùa
+│   ├── index.html
+│   └── style.css
 ├── Bai02/                     # Bài 02: Trang quảng cáo tour du lịch Vạn Lý Trường Thành
 │   ├── index.html
 │   ├── style.css
@@ -78,6 +81,7 @@ CSE122_BTQT_2551170901/
 
 | Bài tập | Tên bài / Đề tài | Kỹ thuật trọng tâm | Đường dẫn trực tiếp |
 | :---: | :--- | :--- | :---: |
+| **Bài 01** | Trang Thơ “Bốn Mùa” | Định dạng văn bản thơ, `<hr>`, responsive | [`Bai01/index.html`](./Bai01/index.html) |
 | **Bài 02** | Quảng Cáo Tour Du Lịch | Text shadow, float layout, box-shadow | [`Bai02/index.html`](./Bai02/index.html) |
 | **Bài 03** | Giới Thiệu Vịnh Hạ Long | Background Gradient, highlight block | [`Bai03/index.html`](./Bai03/index.html) |
 | **Bài 04** | Đà Nẵng — Thành Phố Đáng Sống | Flexbox center, image styling | [`Bai04/index.html`](./Bai04/index.html) |
@@ -85,7 +89,7 @@ CSE122_BTQT_2551170901/
 | **Bài 06** | Bảng Danh Sách Món Ăn Hà Nội | HTML Table, zebra striping, typography | [`Bai06/index.html`](./Bai06/index.html) |
 | **Bài 07** | Trang Khuyến Mãi Double Rich | Two-column promo layout | [`Bai07/index.html`](./Bai07/index.html) |
 | **Bài 08** | Trang Tin Nhiều Chuyên Mục | Magazine layout, sidebar anchor navigation | [`Bai08/index.html`](./Bai08/index.html) |
-| **Bài 09** | Hồ Sơ Cá Nhân (Profile Card) | Modern Card, Bootstrap Icons, Skill badges | [`Bai09/index.html`](./Bai09/index.html) |
+| **Bài 09** | Hồ Sau Cá Nhân (Profile Card) | Modern Card, Bootstrap Icons, Skill badges | [`Bai09/index.html`](./Bai09/index.html) |
 | **Bài 10** | Form Liên Hệ (Contact Form) | Form controls, grid layout, validation styles | [`Bai10/index.html`](./Bai10/index.html) |
 | **Bài 11** | Thư Viện Ảnh Việt Nam | Thẻ `<figure>` & `<figcaption>`, CSS Grid | [`Bai11/index.html`](./Bai11/index.html) |
 | **Bài 12** | In Lịch Tương Tác | JavaScript Date object, DOM Manipulation | [`Bai12/index.html`](./Bai12/index.html) |
@@ -97,5 +101,5 @@ CSE122_BTQT_2551170901/
 ## 🚀 Hướng Dẫn Sử Dụng & Xem Trực Tiếp
 
 1. **Xem trên Local:** Mở trực tiếp file `index.html` ở thư mục gốc bằng bất kỳ trình duyệt web nào (Chrome, Edge, Firefox,...) hoặc dùng Live Server trong VS Code.
-2. **Xem từng bài:** Truy cập vào thư mục của từng bài (ví dụ `Bai03/`) và mở `index.html`.
-3. **GitHub Pages:** Khi bật GitHub Pages trên nhánh `main`, toàn bộ bài tập và trang menu portal có thể được truy cập trực tiếp qua đường dẫn web online.
+2. **Xem từng bài:** Truy cập vào thư mục của từng bài (ví dụ `Bai01/`) và mở `index.html`.
+3. **GitHub Pages:** Khi bật GitHub Pages trên nhánh `main`, toàn bộ bài tập và trang menu portal có thể được truy cập trực tiếp qua đường dẫn web: [https://akajg2509.github.io/CSE122_BTQT_2551170901/](https://akajg2509.github.io/CSE122_BTQT_2551170901/)
