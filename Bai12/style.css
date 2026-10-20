@@ -1,0 +1,149 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    margin: 19px;
+    color: #222222;
+}
+
+.chapter-title {
+    background-color: #243E96;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 4px;
+    margin: 0 0 20px;
+}
+
+.page-title {
+    color: #C92318;
+    background-color: #FBECE9;
+    border-bottom: 3px solid #C92318;
+    font-size: 20px;
+    padding: 4px;
+    margin: 0 0 30px;
+}
+
+.calendar {
+    width: 495px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 23px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px #DDDDDD;
+}
+
+.date-display {
+    border: 1px solid #DDDDDD;
+    border-radius: 9px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Times New Roman", serif;
+}
+
+.year {
+    color: #D52B2B;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.month {
+    color: #1765C0;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.day {
+    color: #C92323;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.05;
+}
+
+.weekday {
+    color: #1765C0;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.greeting {
+    text-align: center;
+    color: #D52B2B;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    font-size: 20px;
+    margin: 16px 0;
+}
+
+.date-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    border: 2px solid #2878E8;
+    border-radius: 9px;
+    padding: 15px 12px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.input-group label {
+    font-size: 14px;
+}
+
+.input-group input {
+    width: 58px;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #D5D5D5;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #526F7C;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #365563;
+}
+
+@media (max-width: 480px) {
+    body {
+        margin: 10px;
+    }
+
+    .calendar {
+        padding: 12px;
+    }
+
+    .date-form {
+        gap: 5px;
+        padding: 10px 5px;
+    }
+
+    .input-group input {
+        width: 48px;
+    }
+
+    button {
+        padding: 9px;
+    }
+}
